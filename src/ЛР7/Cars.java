@@ -1,12 +1,12 @@
 package ЛР7;
 
 public  class Cars {
-/*    public static class TeslaCybertruck extends AbstrctCar {
+    /*public static class TeslaCybertruck extends AbstrctCar {
         String model = getModel();
         String color = getColor();
         int speed = getSpeed();
 
-        TeslaCybertruck(String getModel,  String getColor, int getSpeed(),){
+        TeslaCybertruck(String getModel,  String getColor, int getSpeed()){
             this.model = getModel();
             this.color = getColor();
             this.speed = getSpeed();
@@ -26,7 +26,7 @@ public  class Cars {
         public void stop(){
             System.out.println("Cybertruck Brake" + "\n");
         }
-    }
+    }*/
 /*
     public static class TeslaModelS extends AbstrctCar {
         String model = getModel();
