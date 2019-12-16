@@ -1,24 +1,19 @@
 package ЛР7V2;
 
 public  abstract class Abstrct {
-    private String model;
-    private Double speed;
+    private String name;
+    public Double salary;
 
-    public  Abstrct (String model, Double speed){
-        this.model = model;
-        this.speed = speed;
+    public  Abstrct (String name, Double salary){
+        this.name = name;
+        this.salary = salary;
     }
 
-    public abstract void run();
-    public abstract void stop();
-
-    public String getModel() {
-        return model;
+    public String getName() {
+        return name;
     }
-    public Double getSpeed() {
-        return speed;
+    public Double getSalary() {
+        return salary;
     }
-
-    abstract Double SpeeD();
-    abstract String ModeL();
+    abstract Double GETSalary();
 }
